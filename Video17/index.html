@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div{
+            background-color: aqua;
+        }
+        .aqua{
+            background-color: yellow;
+        }
+        #blue{
+            background-color: wheat;
+        }
+        div>p{
+            color: aqua;
+            background-color: azure;
+        }
+        *{
+           margin: 0;
+           padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        This is a normal div without any class or id
+        <p>
+            This is para inside the div
+        </p>
+    </div>
+    <div class="aqua">
+        This is a class div
+    </div>
+    <div id="blue">
+        This is a ID div
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,1 @@
+alert("Hello,Please Enter the OK button carefully as it can damage your device")
