@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Fit CSS</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 490px;
+            border: 2px solid burlywood;
+            background-color: turquoise;
+
+        }
+        img{
+            height: 500px;
+            width: 490px;
+            object-fit: cover;
+            /* object-fit: contain; */
+            object-position: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="photo.png.jpg" alt="">
+    </div>
+    
+</body>
+</html>

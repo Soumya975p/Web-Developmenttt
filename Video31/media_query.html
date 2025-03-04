@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color:yellow;
+        }
+        @media only screen and (max-width:1000px){
+            body{
+                background-color: aqua;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        .boxes{
+            display: flex;
+        }
+        .box{
+            height: 40vh;
+            width: 40vw;
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        This color is yellow
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    
+</body>
+</html>
